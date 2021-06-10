@@ -14,7 +14,7 @@ Este projeto pretende ter estrutura auto explicativa.
 
 Os dados estão na pasta dados, os arquivos com implementações estão na Biblioteca g_ml.
 
-Os notebook com as aplicações dos modelos 
+Os notebook com as aplicações dos modelos estão na pasta notebooks
 
 1.  ../data - ...
 
