@@ -54,9 +54,6 @@ class RegressaoGD():
 
 class SGD():
 
-	"""Modelo linear de Regressão com gradiente descendente estocásticos estilo sklearn,
-	   com métodos fit e predict, armazena os custos e os parâmetros referentes a cada iteração"""
-
     def __init__(self, t=1000, taxa = 0.01):
 
         self.w = None
@@ -94,7 +91,7 @@ class RegressaoPolinomial():
 	   com métodos fit e predict, esse modelo cria atrbutos polinomais que
 	   podem se ajustar a não linearidades nos atributos originais, 
 	   Regularização L2 inclusa."""
-	   
+
 	def __init__(self, t=1000, taxa = 0.01, lamb = 0, ordem = 1):
 		self.w = None
 		self.t = t
