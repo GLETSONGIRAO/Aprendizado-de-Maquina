@@ -13,6 +13,11 @@ def MRE(y_true ,y_pred):
 
 	return np.mean(np.abs((y_true - y_pred)/y_true))
 
+def MAE(y_true ,y_pred):
+    """Função para calcular o erro médio absoluto entre valores reais e valores preditos, para tarefas de regressão."""
+    
+    return np.mean(np.abs((y_true - y_pred)))
+
 #------------------------> Classificação <----------------------------#
 
 def ACC(y_verdadeiro, y_pred):
