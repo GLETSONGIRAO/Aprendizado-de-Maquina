@@ -16,22 +16,42 @@ Os dados estão na pasta dados, os arquivos com implementações estão na Bibli
 
 Os notebook com as aplicações dos modelos estão na pasta notebooks
 
-1.  ../data - ...
+PROJETO
+|   README.md
+|   __init__.py
+|   
++---data
+|       artificial1d.csv
+|       boston.csv
+|       bostonbin.csv
+|       breastcancer.csv
+|       penguins.csv
+|       quake.csv
+|       vowel.csv
+|       
++---g_ml
+|   |   __init__.py
+|   |   
+|   +---algoritmos
+|   |   __init__.py
+|   |   |   agrupamento.py
+|   |   |   classificacao.py
+|   |   |   regressao.py
 
-    ../data/xxx.csv - ...
-    
-     ../data/xxx.csv - ...
+|   |           
+|   +---utilidades
+|   |   __init__.py
+|   |   |   metricas.py
+|   |   |   processamento.py
 
-        
++---notebooks
+    |   Parte 1 - Regressao.ipynb
+    |   Parte 2 - Classifica‡ao.ipynb
+    |   Parte 3 - RedesNeurais.ipynb
+    |   Parte 4 - SVMs_e_Comites.ipynb
+    |   Parte 5 - Kmeans.ipynb
+    |   Parte 5 - PCA.ipynb
 
-2.  ../g_ml - 
-
-
-4.  ../notebooks -
-
-    
-
-5.  README.md
 
    
 
