@@ -43,7 +43,7 @@ def Kmeans(K, X, n_init):
                 erro_recon = erro_recon + np.sum(np.power((X_grupo-centroides[:, int(grupo)]),2))
 
             dif = np.abs(erro_recon - erro_anterior)
-            #print(dif)
+            
             erros_hist.append(erro_recon)
             erro_anterior = erro_recon
 
@@ -67,6 +67,7 @@ def Kmeans(K, X, n_init):
     return melhor_centroide, melhor_historico, melhor_C, menor_erro
 
 class PCA():
+
     def __init__(self):
         self.cov = None
         self.valores = None
