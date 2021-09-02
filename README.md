@@ -15,20 +15,20 @@ Na pasta Notebooks podem ser vistos exemplos da utilização dos algoritmos.
 
 **Algoritmos Implementados:**
 
-    * Mínimos Quadrados Ordinários
-    * Regressão Linear com Gradiente Descendente
-    * Regressão Linear com Gradiente Descendente Estocástico
-    * Regressão Polinomial
+* Mínimos Quadrados Ordinários
+* Regressão Linear com Gradiente Descendente
+* Regressão Linear com Gradiente Descendente Estocástico
+* Regressão Polinomial
 
-    * Regressão Logística Binária
-    * Análise do Discriminante Gaussiano
-    * Naive Bayes Gaussiano
-    * KNN
+* Regressão Logística Binária
+* Análise do Discriminante Gaussiano
+* Naive Bayes Gaussiano
+* KNN
 
-    * Kmeans
-    * PCA
+* Kmeans
+* PCA
 
-    * Também há implementação de métricas, técnicas de normalização, divisão em treino e teste e validação cruzada.
+* Também há implementação de métricas, técnicas de normalização, divisão em treino e teste e validação cruzada.
 
 
 
